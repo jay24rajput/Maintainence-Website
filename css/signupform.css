@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #DDD;
+  background: rgb(34, 39, 110);
   font-size: 16px;
   color: #222;
   font-family: 'Roboto', sans-serif;
@@ -16,8 +16,8 @@ body {
 #login-box {
   position: relative;
   margin: 5% auto;
-  width: 600px;
-  height: 400px;
+  width: 625px;
+  height: 560px;
   background: #FFF;
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
