@@ -19,13 +19,18 @@
   <div id="login-box">
   <div class="left">
     <h1>Sign up</h1>
+    <form action="#" onsubmit="return validateSignUpForm();" method="POST">
+    <input type="text" id="surname" placeholder="Surname" />
+    <input type="text" id="first_name" placeholder="First Name" />
+    <input type="text" id="middle_name" placeholder="Middle Name" />
+    <input type="text" id="mobile_number" placeholder="Mobile No." />
+    <input type="text" name="email" id="email_id" placeholder="Email"  />
 
-    <input type="text" name="username" id="Username" placeholder="Username" />
-    <input type="text" name="email" placeholder="E-mail"  />
-    <input type="password" name="password" placeholder="Password" />
-    <input type="password" name="password2" placeholder="Retype password" />
+    <input type="password" name="password" id = "psw" placeholder="Password" />
+    <input type="password" name="password2" id = "psw_confirm"  placeholder="Retype password" />
     
-    <input type="submit" name="signup_submit" value="Sign me up" onclick="validateSignUpForm()" />
+    <input type="submit" name="signup_submit" value="Sign me up"/>
+    </form>
   </div>
   
   <div class="right">
